@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Task 5 - Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="validate.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="../../Images/marketing.jpg">
+        <h1>
+            Form Validation with HTML and JavaScript - Task 5<br>
+        </h1>
+    </header>
+    <p>
+        In this HTML form example we use built-in validation techniques that are included in HTML/HTML5.
+    </p>
+    <p>
+        A user would typically key in input values and click the submit button to validate.
+    </p>
+
+    <div class="formarea">
+        <div class="formheader">
+            Task 5 - Sample Order Form with Built-in Validation
+        </div>
+        
+        <p>
+            Order your free flower seedlings today! Just use the form below to enter
+            your color choice, number of seedlings, and an email address where we can
+            contact you when your order is ready.
+        </p>
+        <form action="indata.php" method="post" name="ordForm">
+            <label for="colorChoice">Color Choice:</label>
+          <select name="colorChoice" id="colorChoice" style="width: 100px;">
+            <option value="">Select....</option>
+            <option value="red">Red</option>
+            <option value="pur">Purple</option>
+            <option value="ora">Orange</option>
+          </select>
+          <hr><br>
+            <label for="qty">Quantity (1 - 12): </label>
+            <input style="width:50px;" type="number" id="qty" name="qty" min="1" max="12"><br>
+            <hr><br>
+            <label for="emailAddr">Your eMail Address:</label>
+            <input style="width:120px;" type="email" id="emailAddr" name="emailAddr">
+            <hr><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

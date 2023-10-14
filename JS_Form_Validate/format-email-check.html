@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html>  
+  <head>
+    <meta charset="utf-8">
+    <title>Task 4 - Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="validate.js"></script>
+  </head>     
+    <body>
+      <header>
+        <img src="../../Images/marketing.jpg">
+        <h1>        
+          Form Validation with HTML and JavaScript - Task 4<br>
+        </h1>
+      </header>
+      <p>
+        Checking the value inside a field for specific characters can help to identify errors when a user enters a value for an email address.
+      </p>
+      <p>
+        A user would typically key in input values and click the submit button to validate.
+      </p>
+       
+      <div class="formarea">
+        <div class="formheader">
+          Task 4 - Sample Order Form with Email Address
+        </div>
+        <p>
+          Order your free flower seedlings today! Just use the form below to enter
+          your color choice, number of seedlings, and an email address where we can
+          contact you when your order is ready.
+        </p>
+        <form action="indata.php" method="post" name="ordForm" onsubmit = "return(validate3());">
+         
+          <hr><br>
+          <label for="emailAddr">Your eMail Address:</label> 
+          <input style="width:120px;" type="text" id="emailAddr" name="emailAddr">
+          <hr><br>
+          <input type="submit" value="Submit">
+        </form>       
+      </div>
+   </body>  
+
+</html>  

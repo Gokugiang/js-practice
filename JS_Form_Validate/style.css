@@ -1,0 +1,67 @@
+body {
+  font-family: Verdana;
+}
+
+header {
+  background-color : black;
+  display          : block;
+  padding          : 10px;
+}
+
+header h1 {
+  color            : #FFCA18 ;
+  display          : block;
+  padding          : 10px;
+  padding-left     : 165px;
+}
+  
+img {
+  left      : 20px;
+  position  : fixed;
+  top       : 20px;
+  width     : 150px;
+}
+
+input[type=submit] {
+
+  background-color      : black; 
+  border                : 2px solid gray;
+  border-radius         : 15px; 
+  color                 : white;
+  cursor                : pointer;
+  font-size             : 125%;
+  font-weight           : bold;
+  padding               : 5px 15px; 
+  -webkit-border-radius : 15px;
+}
+
+input[type=text] {
+  border            : 2px solid #ccc;  
+  padding           : 5px; 
+}
+
+p {
+	color       : #0b0736;
+  font-weight : bold;
+}
+
+.formarea{
+  background-color: #FFCA18 ;
+  border          : 5px dashed #0b0736;
+  display         : block;
+  font-weight     : bold;
+	overflow        : auto;
+  padding         : 20px;
+}
+
+.formheader{
+  background-color : black;
+  color            : white ;
+  display          : block;
+  margin-bottom    : 10px;
+  padding          : 10px;
+}
+
+
+
+
